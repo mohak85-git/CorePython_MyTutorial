@@ -1,0 +1,13 @@
+O9999_scratch.py
+*.idea
+.idea/misc.xml
+*.zip
+*.rar
+./
+*.dat
+*.bak
+*.dir
+*.xml
+*.iml
+__pycache__
+./
