@@ -7,10 +7,10 @@ print(tabbedString)
 print()
 
 print('The pet shop owner said "No, no, \'e \'s uh,...he\'s resting".')
-print("The pet shop owner said 'No, no, \'e \'s uh,...he\'s resting'.")
+print("The pet shop owner said \"No, no, 'e 's uh,...he's resting\".")
 # In this case, use escape char (\ or backslash) to have quotes (double or single) as part of string.
 
-print("""The pet shop owner said "No, no, \'e \'s uh,...he\'s resting".""")
+print("""The pet shop owner said "No, no, 'e 's uh,...he's resting".""")
 # A pair of 3 quotes (single or double) are called as Docstrings.
 
 print()
@@ -28,6 +28,7 @@ several \
 lines."""
 # While working with extremely long strings use backslash to indicate python about string continuation.
 
+print()
 print(anotherString)
 print()
 
