@@ -11,3 +11,4 @@ O9999_scratch.py
 *.iml
 __pycache__
 ./
+.idea/MyTutorial_CorePython.iml

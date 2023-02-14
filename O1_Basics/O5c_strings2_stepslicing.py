@@ -1,6 +1,8 @@
-#                   1
+#    ->             1
 #         01234567890123
 parrot = "Norwegian Blue"
+#    <-  -    1
+#        -43210987654321
 
 print(parrot[0:6:2])    # Nre
 print(parrot[0:6:3])    # Nw
