@@ -1,4 +1,4 @@
-if 0:
+if 0:  # Code not reachable, if always evaluates to false
     print("True")
 else:
     print("False")

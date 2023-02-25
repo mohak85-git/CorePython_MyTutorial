@@ -27,7 +27,6 @@ print(parrot[-6])
 print()
 
 # Negative index = Positive index - Length of string
-
 print(f"Length of the string is: {len(parrot)}")
 print()
 
