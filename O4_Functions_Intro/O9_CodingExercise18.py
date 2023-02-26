@@ -33,5 +33,5 @@ def factorial(n: int) -> int:
     return fact
 
 
-for x in range(51):
+for x in range(11):
     print(f"Factorial of {x} is: {factorial(x)}")

@@ -1,5 +1,7 @@
 import colorama
-# Some ANSI escape sequences for colours and effects
+# Some ANSI escape sequences for colours and effects.
+# ANSI escape sequences begin with \u
+
 BLACK = '\u001b[30m'
 RED = '\u001b[31m'
 GREEN = '\u001b[32m'
@@ -8,7 +10,7 @@ BLUE = '\u001b[34m'
 MAGENTA = '\u001b[35m'
 CYAN = '\u001b[36m'
 WHITE = '\u001b[37m'
-RESET  = '\u001b[0m'
+RESET = '\u001b[0m'
 
 BOLD = '\u001b[1m'
 UNDERLINE = '\u001b[4m'

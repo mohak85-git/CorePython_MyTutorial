@@ -1,5 +1,5 @@
 LOW = 1
-HIGH = 65535
+HIGH = 1023
 
 # print("Please think of a number between 1 and 1000")
 # input("Press ENTER to start")

@@ -15,11 +15,11 @@ def average(*args):
     print(type(args))
     print(f"args is {args}")
     print("*args is ", *args)
-    mean = 0
+    total = 0
     for arg in args:
-        mean += arg
+        total += arg
 
-    return mean/len(args)
+    return total/len(args)
 
 
 print(average(1, 2, 3, 4))

@@ -13,7 +13,7 @@ def fib(n: int) -> int:
     if n < 2:
         result = n
     else:
-        for i in range(n-1):
+        for x in range(n-1):
             result = val1 + val2
             val1 = val2
             val2 = result
@@ -21,5 +21,7 @@ def fib(n: int) -> int:
     return result
 
 
-for i in range(46):
+for i in range(21):
     print(f"{i}th fibonacci is {fib(i)}")
+
+fib()

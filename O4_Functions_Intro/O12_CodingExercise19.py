@@ -28,11 +28,11 @@ def sum_numbers(*args: float) -> float:
     Returns:
         float: _description_
     """
-    sum = 0
+    total = 0
     for arg in args:
-        sum += arg
+        total += arg
 
-    return sum
+    return total
 
 
 print(sum_numbers(1, 2, 3))
