@@ -49,3 +49,4 @@ print(f"Pi is approximately {22 / 7:12.2f}")
 
 # Use math.pi if you really want to use the value of pi.
 print(f"From the math module: math.pi is approximately {pi:>15.8f}")
+# Right alinged value of PI with 15 chars and only 8 precision digits
