@@ -2,7 +2,7 @@ import random
 
 highest = 15
 answer = random.randint(1, highest)
-print(f"answer is: {answer}")
+print(f"answer is: {answer}")  # TODO: remove this line after testing
 print(f"Please guess number between 1 and {highest}: ")
 guess = int(input())
 

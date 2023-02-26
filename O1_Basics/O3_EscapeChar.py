@@ -1,4 +1,5 @@
 splitString = "This string has been \nsplit over\nseveral\nlines."
+# \n = newline, \t = tab, are few of the escape sequences
 print(splitString)
 print()
 
@@ -7,8 +8,9 @@ print(tabbedString)
 print()
 
 print('The pet shop owner said "No, no, \'e \'s uh,...he\'s resting".')
+# In this case, use escape char (\ or backslash) to have quotes (double or
+# single) as part of string. \' = ' and \" = " are also escape sequences
 print("The pet shop owner said \"No, no, 'e 's uh,...he's resting\".")
-# In this case, use escape char (\ or backslash) to have quotes (double or single) as part of string.
 
 print("""The pet shop owner said "No, no, 'e 's uh,...he's resting".""")
 # A pair of 3 quotes (single or double) are called as Docstrings.
@@ -26,13 +28,14 @@ anotherString = """This string has been \
 split over \
 several \
 lines."""
-# While working with extremely long strings use backslash to indicate python about string continuation.
+# While working with extremely long strings use backslash to indicate python
+# about string continuation.
 
 print()
 print(anotherString)
 print()
 
-# How to include backslash character inside a string?
+# How to include backslash character inside a string? \\ escape sequence
 print("C:\\Users\\timbuchalka\\notes.txt")  # preferred
 # or
 print(r"C:\Users\timbuchalka\notes.txt")  # r => raw strings

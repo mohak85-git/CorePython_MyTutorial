@@ -8,10 +8,10 @@ print(string1 + string2 + string3 + string4 + string5)
 
 print("he's " "probably " "pining " "for the " "fjords")
 
-print("Hello " * 5)
+print("Hello " * 5)  # prints Hello 5 times
 
-print("Hello " * (5 + 4))
-print("Hello " * 5 + "4")
+print("Hello " * (5 + 4))  # prints Hello 9 times
+print("Hello " * 5 + "4")  # prints Hello 5 times and concatenates 4 at the end
 
 today = "friday"
 print("day" in today)       # True
