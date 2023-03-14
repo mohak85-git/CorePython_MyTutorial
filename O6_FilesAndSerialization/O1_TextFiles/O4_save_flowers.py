@@ -41,5 +41,6 @@ filename = "test_numbers.txt"
 
 with open(filename, "w") as test:
     for i in range(10):
-        test.write(i)  # will error out as we can't .write non-text data to a
-        # non-text file
+        #        test.write(i)  # will error out as we can't .write non-text data to a
+        #        non-text file
+        test.write(str(i))

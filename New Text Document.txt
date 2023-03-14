@@ -1,0 +1,1 @@
+make invert bitmap and id3 tag as projects in git hub
